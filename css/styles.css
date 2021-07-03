@@ -12,6 +12,17 @@ body{
     color:var(--main-color)
 }
 
+/*======== COMPONENTS ========*/
+
+.secondary-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.667;
+letter-spacing: 0.03em;
+}
+
+/*======== END COMPONENTS ========*/
+
 /*======== HEADER ========*/
 
 .navigation-logo{
@@ -84,3 +95,8 @@ color:var(--forth-color)
 }
 /*======== END HERO ========*/
 
+/*======== ABOUT ========*/
+
+
+
+/*======== END ABOUT ========*/
