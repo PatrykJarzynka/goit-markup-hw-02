@@ -1,16 +1,24 @@
 :root{
     --main-font:'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
+    --main-color: #212121;
     --hover-color: #2196F3;
 }
 
 body{
     font-family: var(--main-font);
-    color:#212121;
+    color:var(--main-color)
 }
 
 /*======== HEADER ========*/
 
+.navigation-logo{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+}
 
 /*======== END HEADER ========*/
 
