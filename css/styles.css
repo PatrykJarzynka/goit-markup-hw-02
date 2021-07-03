@@ -14,6 +14,14 @@ body{
 
 /*======== COMPONENTS ========*/
 
+.logo{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+}
+
 .secondary-header{
 font-weight: 700;
 font-size: 36px;
@@ -25,13 +33,6 @@ letter-spacing: 0.03em;
 
 /*======== HEADER ========*/
 
-.navigation-logo{
-font-family: var(--secondary-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.192;
-letter-spacing: 0.03em;
-}
 
 .navigation-link{
 font-weight: 500;
@@ -97,6 +98,23 @@ color:var(--forth-color)
 
 /*======== ABOUT ========*/
 
-
-
 /*======== END ABOUT ========*/
+
+/*======== EMPLOYEES ========*/
+
+.employees-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
+}
+
+.employees-job{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+letter-spacing: 0.03em;
+color:var(--forth-color)
+}
+
+/*======== END EMPLOYEES ========*/
