@@ -5,6 +5,7 @@
     --secondary-color: #2196F3;
     --third-color: #ffffff;
     --forth-color: #757575;
+    --footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body{
@@ -118,3 +119,14 @@ color:var(--forth-color)
 }
 
 /*======== END EMPLOYEES ========*/
+
+/*======== FOOTER ========*/
+
+.address-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/*color:var(--footer-color)*/
+}
+/*======== END FOOTER ========*/
