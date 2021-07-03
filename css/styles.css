@@ -2,8 +2,9 @@
     --main-font:'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --main-color: #212121;
-    --hover-color: #2196F3;
+    --secondary-color: #2196F3;
     --contact-color: #757575;
+    --third-color: #ffffff;
 }
 
 body{
@@ -32,7 +33,7 @@ letter-spacing: 0.02em;
 .navigation-link:focus,
 .contact-link:hover,
 .contact-link:focus{
-    color:var(--hover-color)
+    color:var(--secondary-color)
 }
 
 .contact-link{
@@ -45,5 +46,25 @@ color:var(--contact-color)
 
 /*======== END HEADER ========*/
 
+/*======== HERO ========*/
 
+.first-header{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/*color:var(--third-color);*/
+}
+
+.modal-btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+background-color: var(--secondary-color);
+color:var(--third-color)
+}
+
+/*======== END HERO ========*/
 
