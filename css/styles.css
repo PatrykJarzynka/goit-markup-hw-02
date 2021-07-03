@@ -45,7 +45,9 @@ letter-spacing: 0.02em;
 .navigation-link:hover,
 .navigation-link:focus,
 .contact-link:hover,
-.contact-link:focus{
+.contact-link:focus,
+.address-link-contact:hover,
+.address-link-contact:focus{
     color:var(--secondary-color)
 }
 
@@ -157,11 +159,19 @@ color:var(--forth-color);
 
 /*======== FOOTER ========*/
 
-.address-link{
+.address-link,
+.address-link-contact{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
-/*color:var(--footer-color)*/
+}
+
+.address-link-contact{
+    /*color:var(--footer-color);*/
+}
+
+.address-link{
+    /*color:var(--third-color);*/
 }
 /*======== END FOOTER ========*/
