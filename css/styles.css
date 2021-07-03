@@ -91,7 +91,6 @@ text-transform: uppercase;
 }
 
 .hero-text-description{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
@@ -113,7 +112,6 @@ letter-spacing: 0.03em;
 }
 
 .employees-job{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.187;
 letter-spacing: 0.03em;
@@ -149,7 +147,6 @@ letter-spacing: 0.06em;
 }
 
 .offer-description{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
@@ -161,7 +158,6 @@ color:var(--forth-color);
 
 .address-link,
 .address-link-contact{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
