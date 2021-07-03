@@ -1,9 +1,11 @@
 :root{
     --main-font:'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    --main-color: #2196F3;
+    --hover-color: #2196F3;
 }
 
 body{
     font-family: var(--main-font);
+    color:#212121;
 }
+
